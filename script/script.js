@@ -71,7 +71,7 @@ function onOperator(op) {
   } else if (stage == 2)  {
     secondNumber = screen.innerText; 
     operator = op;
-    result = operate(operator, firstNumber, secondNumber);
+    let result = operate(operator, firstNumber, secondNumber);
     screen.innerText = result
     firstNumber = result;
     secondNumber = null;
